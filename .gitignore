@@ -11,3 +11,5 @@ selenium-client-jars/
 test/artifacts
 .vscode
 testOutput/
+assets/server.key
+assets/server.key.enc

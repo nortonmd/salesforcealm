@@ -2,22 +2,30 @@
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "45.0",
+    "packageAliases": {
+        "core": "0Hof4000000CadNCAS",
+        "core@0.1.0-1": "04tf40000047r4GAAQ",
+        "logic": "0Hof4000000CadSCAS",
+        "logic@0.1.0-1": "04tf40000047r4LAAQ",
+        "ui": "0Hof4000000CadXCAS",
+        "ui@0.1.0-1": "04tf40000047r4aAAA",
+        "security": "0Hof4000000CadcCAC",
+        "security@0.1.0-1": "04tf40000047r4fAAA"
+    },
     "packageDirectories": [
         {
-            "path": "force-app",
+            "path": "core",
+            "package": "core",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
             "default": true
         },
         {
-            "path": "core",
-            "default": false,
-            "package": "core",
-            "versionNumber": "0.1.0.NEXT"
-        },
-        {
             "path": "logic",
-            "default": false,
-            "versionNumber": "0.1.0.NEXT",
             "package": "logic",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
             "dependencies": [
                 {
                     "package": "core",
@@ -27,9 +35,10 @@
         },
         {
             "path": "ui",
-            "default": false,
-            "versionNumber": "0.1.0.NEXT",
             "package": "ui",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
             "dependencies": [
                 {
                     "package": "core",
@@ -43,9 +52,10 @@
         },
         {
             "path": "security",
-            "default": false,
-            "versionNumber": "0.1.0.NEXT",
             "package": "security",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
             "dependencies": [
                 {
                     "package": "core",
@@ -61,8 +71,5 @@
                 }
             ]
         }
-    ],
-    "packageAliases": {
-        
-    }
+    ]
 }
