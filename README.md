@@ -2,6 +2,8 @@
 
 ## Dev, Build and Test
 
+Build on push, with GitHub and Travis.ci
+
 
 ## Resources
 
