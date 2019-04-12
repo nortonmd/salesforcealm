@@ -1,8 +1,8 @@
 # SFDX  App
 
 ## Dev, Build and Test
-
 Build on push, with GitHub and Travis.ci
+Build now includes package installation.
 
 
 ## Resources
